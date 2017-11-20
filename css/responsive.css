@@ -1,0 +1,69 @@
+@media screen and (max-width: 1640px) {
+    .trash{
+        padding-right: 10%;
+    }
+    .menu li{
+        padding-right: 30px;
+    }
+    .game-changer{
+        display: inline-block;
+        width: 38%;
+    }
+    .video-media{display: inline-block;
+    width: 38%;
+        text-align: right;
+    }
+    .button{
+        margin-left: 40%;
+    }
+    .video-info{
+        float: none;
+        width: 100%;
+        padding: 0;
+    }
+    .game-changer{
+        float: left;
+        padding-left: 10%;
+    }
+    .video-media{
+        float: right;
+        padding-right: 10%;
+    }
+    .price{border: none}
+    .video{
+        float: none;
+        margin: 0 auto;
+}
+
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1470px) {
+.addres div:first-child {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+.addres div:nth-child(2){
+    text-align: left;
+    padding: 0;
+}
+.right-top{
+    padding-left: 5%;
+}
+.addres h4, .addres p{
+    display: inline-block;
+}
+.addres p{padding-left: 20px}
+}
+
+.performance-safety{
+    font-size: 35px;
+}
+.game-changer h2{
+    font-size: 40px;
+}
+.features-text{
+    font-size: 40px;
+}
+
+

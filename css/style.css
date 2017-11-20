@@ -17,7 +17,7 @@ main{text-transform: uppercase;}
     font: 600 20px 'Open Sans', sans-serif;
 }
 .info-promo p{
-    padding: 10px;
+    padding: 20px;
 }
 /* Меню*/
 
@@ -33,7 +33,7 @@ main{text-transform: uppercase;}
 
 }
 .logo{
-    padding-left: 100px;
+    padding-left: 110px;
     width: 30%;
     display: flex;
     justify-content: center;
@@ -41,14 +41,14 @@ main{text-transform: uppercase;}
 }
 .left-logo {
     border-right: 3px solid black;
-    margin: 10px;
-    padding-right: 20px;
+    margin: 12px;
+    padding-right: 15px;
 }
 .right-logo {
 margin:  10px;
 }
 .trash {
-    padding-right: 100px;
+    padding-right: 257px;
     padding-left: 50px;
 }
 .menu {
@@ -61,7 +61,7 @@ margin:  10px;
     display: inline-block;
     font: 600 20px 'Open Sans', sans-serif;
     color: white;
-    padding-right: 20px;
+    padding-right: 50px;
 }
 .menu a{
     text-decoration: none;
@@ -73,7 +73,7 @@ margin:  10px;
 .slider-text{
     width: 100%;
     position: absolute;
-    top: 30%;
+    top: 36%;
     color: white;
 }
 .slider-text h2{
@@ -83,11 +83,12 @@ margin:  10px;
 .slider-text h3 {
     text-align: center;
     font: 600 60px 'Bebas Neue Regular', sans-serif;
+    margin-top: -25px;
 }
 .slider-text p{
     text-align: right;
-    font-size: 30px;
-    padding-right: 30%;
+    font-size: 45px;
+    padding-right: 28%;
 }
 .fa-sort-asc{
 
@@ -119,8 +120,8 @@ margin:  10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 59px;
+    padding-bottom: 70px;
 }
 .features-text{
     width: 30%;
@@ -128,12 +129,13 @@ margin:  10px;
     background: linear-gradient(to right, #0E1757, #3888C2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    padding-left: 30px;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
 }
 .features-image{
     float: right;
-    width: 65%;
-    padding-right: 30px;
+    width: 60%;
+    padding-right: 2.5%;
 }
 .features-image img{
     width: 100%;
@@ -148,8 +150,8 @@ margin:  10px;
     background: black;
     color: white;
     font:48px 'Open Sans ExtraBold', sans-serif;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .performance-block {
     display: flex;
@@ -157,25 +159,38 @@ margin:  10px;
     align-items: center;
 }
 .performance-block:first-child{
-    padding-left: 100px;
-    width: 29%;
+    padding-left: 10.4%;
+    width: 28.3%;
+}
+.performance-block:first-child img{
+    width: 100%;
 }
 .performance-block:last-child{
-    padding-right: 100px;
-    width: 18%;
+    padding-right: 10.4%;
+    width: 16.9%;
+}
+.performance-block:last-child img{
+    width: 100%;
+}
+.performance-block:nth-child(2){
+    width: 16.2%;
+}
+.performance-block:nth-child(2) img{
+    width: 100%;
 }
 .performance-text {
-    padding-left: 30px;
+    padding-left: 20px;
 }
 /* Видео блок*/
 .video-block{
     background-color: #F3F3F3;
     width: 100%;
-    padding-top: 30px;
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
 .video-info {
     float: left;
-    padding-left: 100px;
+    padding-left: 200px;
 }
 .game-changer h2{
     font:60px 'Open Sans ExtraBold', sans-serif;
@@ -189,7 +204,7 @@ margin:  10px;
 }
 .game-changer p{
     font:400 18px 'Open Sans', sans-serif;
-    padding-bottom: 3px;
+    padding-top: 20px;
 }
 .price{
     border-left: 2px solid #E1E1E1;
@@ -210,12 +225,12 @@ margin:  10px;
     text-align: center;
 }
 .info-logo {
-    padding: 20px 0 40px 20px;
+    padding: 60px 0 40px 25px;
 }
 .video{
     float: right;
     width: 50%;
-    margin-right: 3%;
+    margin-right: 6%;
     margin-top: 4%;
     margin-bottom: 4%;
 }
@@ -227,8 +242,8 @@ margin:  10px;
 
 .pros {
     width: 100%;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 135px;
+    padding-bottom: 170px;
 }
 .pros-text{
     width: 100%;
@@ -243,15 +258,32 @@ margin:  10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 82px;
 }
 .pros-logo img{
     padding-left: 1%;
     padding-right: 1%;
 }
+.pros-logo img:nth-child(1){
+    width: 7.86%;
+}
+.pros-logo img:nth-child(2){
+    width: 10.36%;
+}
+.pros-logo img:nth-child(3){
+    width: 13.23%;
+}
+.pros-logo img:nth-child(4){
+     width: 9.64%;
+ }
+.pros-logo img:nth-child(5){
+    width: 11.82%;
+}
+
 .pros-circle {
     width: 100%;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 133px;
 }
 .circle{
     width: 15px;
@@ -265,6 +297,10 @@ margin:  10px;
 }
 .circle1{
     background: #0D6CB6;
+}
+.second-pros{
+    padding-top: 95px;
+    padding-bottom: 110px;
 }
 
 /*Инстаграм*/
@@ -304,6 +340,7 @@ margin:  10px;
     width: 100%;
     display: flex;
     justify-content: space-around;
+    padding-top: 115px;
 }
 .liners{
     width: 31%;
@@ -341,7 +378,7 @@ margin:  10px;
     text-align: center;
 }
 .liners-buttom{
-    background: blue;
+    background: #056AB2;
     color: white;
     text-align: center;
     font:500 29px 'Open Sans';
@@ -354,6 +391,7 @@ margin:  10px;
     position: relative;
     background: black;
     font-size: 0;
+    margin-top: 137px;
 }
 .delivered img{width: 100%}
 .delivered-text{
@@ -384,7 +422,7 @@ footer{
     color: white;
     font: 400 13px 'Open Sans';
     width: 100%;
-    padding-top: 30px;
+    padding-top: 66px;
     padding-bottom: 30px;
     text-transform: none;
 }
@@ -420,22 +458,25 @@ footer h2{
     width: 100%;
     display: flex;
     justify-content: center;
-    padding-top: 40px;
+    padding-top: 30px;
     padding-bottom: 20px;
 }
 
 .right-top{
-    width: 37%;
+    width: 40%;
     border-bottom: 1px solid black;
 }
 .left-top{
-    width: 37%;
+    width: 40%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     border-bottom: 1px solid black;
 }
 .about{
-    width: 50%;
+    width: 26%;
+}
+.stay{
+    padding-right: 150px;
 }
 .about p{
     padding-bottom: 15px;
@@ -455,8 +496,8 @@ footer h2{
     padding-top: 20px;
 }
 .location{
-    width: 100%;
-    margin-top: 20px;
+    width: 135%;
+    margin-top: 33px;
     border: 1px solid white;
     border-radius: 5px;
     text-align: right;
@@ -465,5 +506,5 @@ footer h2{
     color: #0D6CB6;
     background-color: white;
     font-size: 20px;
-    padding: 2px 10px 2px 10px;
+    padding: 5px 20px 2px 15px;
 }
