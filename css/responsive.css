@@ -33,37 +33,173 @@
     .video{
         float: none;
         margin: 0 auto;
-}
+    }
+    .liners-text{
+        font-size: 40px;
+    }
 
 }
 
-@media only screen and (min-width: 1201px) and (max-width: 1470px) {
-.addres div:first-child {
-    display: block;
-    width: 100%;
-    text-align: left;
-}
-.addres div:nth-child(2){
-    text-align: left;
-    padding: 0;
-}
-.right-top{
-    padding-left: 5%;
-}
-.addres h4, .addres p{
-    display: inline-block;
-}
-.addres p{padding-left: 20px}
-}
+@media screen and (min-width: 1201px) and (max-width: 1470px) {
+    .addres div:first-child {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
 
-.performance-safety{
-    font-size: 35px;
-}
-.game-changer h2{
-    font-size: 40px;
-}
-.features-text{
-    font-size: 40px;
-}
+    .addres div:nth-child(2) {
+        text-align: left;
+        padding: 0;
+    }
 
+    .right-top {
+        padding-left: 5%;
+    }
 
+    .addres h4, .addres p {
+        display: inline-block;
+    }
+
+    .addres p {
+        padding-left: 20px
+    }
+
+    .performance-safety {
+        font-size: 35px;
+    }
+
+    .game-changer h2 {
+        font-size: 40px;
+    }
+
+    .features-text {
+        font-size: 40px;
+    }
+    .menu-block{
+        display: block;
+    }
+    .logo{
+        padding: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .menu{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .trash {
+        position: absolute;
+        padding: 0;
+        right: 7%;
+        top: 30%;
+    }
+    .pros{
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+    .pros-text{font-size: 45px}
+    .liners-text{
+        font-size: 30px;
+    }
+    .game-changer h2{
+        font-size: 40px;
+    }
+}
+@media screen and (max-device-width: 1200px) {
+    .slider-text h2{
+        font-size: 100px;
+    }
+    .slider-text h3{
+        font-size: 35px;
+    }
+    .slider-text p{
+        font-size: 25px;
+    }
+    .tech-features{
+        display: block;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .features-text{
+        width: 100%;
+        font-size: 35px;
+        text-align: center;
+        padding: 0 0 15px 0;
+    }
+    .features-image{
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+    .features-image img{
+        width: 90%;
+    }
+    .menu-block{
+        display: block;
+    }
+    .logo{
+        padding: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .menu{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .trash {
+        position: absolute;
+        padding: 0;
+        right: 7%;
+        top: 30%;
+    }
+
+    .performance-safety{
+        display: block;
+        padding-bottom: 0;
+    }
+    .performance-block:first-child{
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        border-bottom: 1px solid white;
+    }
+    .performance-block:last-child{
+        width: 50%;
+        float: right;
+    }
+
+    .performance-block:nth-child(2){
+        width: 50%;
+        float: left;
+        border-right: 1px solid white;;
+    }
+    .game-changer h2{
+        font-size: 40px;
+    }
+    .liners-text{
+        font-size: 30px;
+    }
+    .about{
+        width: 50%;
+    }
+    .stay h2{
+        font-size: 15px;
+    }
+    .stay{
+        padding-right: 20%;
+    }
+    .pros{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .pros-logo{
+        padding-top: 20px;
+    }
+    .pros-circle{
+        padding-top: 20px;
+    }
+    .pros-text{font-size: 30px}
+
+}

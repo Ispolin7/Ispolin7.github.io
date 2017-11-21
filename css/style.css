@@ -162,22 +162,17 @@ margin:  10px;
     padding-left: 10.4%;
     width: 28.3%;
 }
-.performance-block:first-child img{
-    width: 100%;
-}
+
 .performance-block:last-child{
     padding-right: 10.4%;
     width: 16.9%;
 }
-.performance-block:last-child img{
-    width: 100%;
-}
+
+
 .performance-block:nth-child(2){
     width: 16.2%;
 }
-.performance-block:nth-child(2) img{
-    width: 100%;
-}
+
 .performance-text {
     padding-left: 20px;
 }
@@ -423,7 +418,7 @@ footer{
     font: 400 13px 'Open Sans';
     width: 100%;
     padding-top: 66px;
-    padding-bottom: 30px;
+    padding-bottom: 80px;
     text-transform: none;
 }
 footer h4{
