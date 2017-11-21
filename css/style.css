@@ -50,6 +50,7 @@ margin:  10px;
 .trash {
     padding-right: 257px;
     padding-left: 50px;
+    cursor: pointer;
 }
 .menu {
     width: 60%;
@@ -91,12 +92,13 @@ margin:  10px;
     padding-right: 28%;
 }
 .fa-sort-asc{
-
+    cursor: pointer;
 }
 .fa-sort-desc{
     margin-left: 15px;
     border-top: 1px solid black;
     padding: 10px;
+    cursor: pointer;
 }
 
 
@@ -218,6 +220,7 @@ margin:  10px;
     border: 3px solid #1877BB;
     border-radius: 50px;
     text-align: center;
+    cursor: pointer;
 }
 .info-logo {
     padding: 60px 0 40px 25px;
@@ -228,6 +231,7 @@ margin:  10px;
     margin-right: 6%;
     margin-top: 4%;
     margin-bottom: 4%;
+    cursor: pointer;
 }
 .video img{
     width: 100%;
@@ -279,6 +283,7 @@ margin:  10px;
     width: 100%;
     text-align: center;
     padding-top: 133px;
+    cursor: pointer;
 }
 .circle{
     width: 15px;
@@ -378,6 +383,7 @@ margin:  10px;
     text-align: center;
     font:500 29px 'Open Sans';
     padding: 10px;
+    cursor: pointer;
 }
 
 /*Большое видео*/
@@ -408,6 +414,7 @@ margin:  10px;
 .delivered-icon img{
     width: 8%;
     padding-top: 20px;
+    cursor: pointer;
 }
 
 /***************Подвал**************************/
@@ -496,6 +503,7 @@ footer h2{
     border: 1px solid white;
     border-radius: 5px;
     text-align: right;
+    cursor: pointer;
 }
 .fa-location-arrow{
     color: #0D6CB6;
