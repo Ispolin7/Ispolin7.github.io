@@ -1,4 +1,4 @@
-*@media screen and (max-width: 1240px) {
+@media screen and (max-width: 1240px) {
     .menu-block{
         display: block;
     }
@@ -6,17 +6,23 @@
         padding: 0;
         text-align: center;
         width: 100%;
+        margin-top: -2%;
+        margin-bottom: -3%;
     }
     .menu{
         width: 100%;
         display: block;
         text-align: center;
+        padding: 1%;
     }
     .trash {
         position: absolute;
         padding: 0;
         right: 7%;
         top: 30%;
+    }
+    .fa-shopping-cart{
+        font-size: 3vw;
     }
 }
 

@@ -84,7 +84,6 @@ margin:  4%;
 .slider-text h3 {
     text-align: center;
     font: 600 3vw 'Bebas Neue Regular', sans-serif;
-    margin-top: -25px;
 }
 .slider-text p{
     text-align: right;
@@ -512,4 +511,26 @@ footer h2{
     background-color: white;
     font-size: 1vw;
     padding: 5px 20px 2px 15px;
+}
+
+*@media screen and (max-width: 1240px) {
+    .menu-block{
+        display: block;
+    }
+    .logo{
+        padding: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .menu{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .trash {
+        position: absolute;
+        padding: 0;
+        right: 7%;
+        top: 30%;
+    }
 }
