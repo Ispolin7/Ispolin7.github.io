@@ -46,6 +46,9 @@
     .right-logo{
         margin: 0;
     }
+    .menu li{
+        font-size: 2vw;
+    }
     .slider-text{top: 25%}
     .slider-text p{
         padding: 0;
