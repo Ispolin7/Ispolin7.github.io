@@ -127,7 +127,7 @@ margin:  4%;
 .features-text{
     width: 30%;
     font:3vw 'Open Sans ExtraBold', sans-serif;
-    background: linear-gradient(to right, #0E1757, #3888C2);
+    background: linear-gradient(to right, #0D1554, #3888C2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding-left: 2.5%;
@@ -173,6 +173,7 @@ margin:  4%;
     width: 16.2%;
 }
 
+
 .performance-text {
     padding-left: 20px;
 }
@@ -190,7 +191,7 @@ margin:  4%;
 }
 .game-changer h2{
     font:3vw 'Open Sans ExtraBold', sans-serif;
-    background: linear-gradient(to right, #0E1757, #3888C2);
+    background: linear-gradient(to right, #0D1554, #3888C2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -247,7 +248,7 @@ margin:  4%;
     width: 100%;
     text-align: center;
     font: 3vw 'Open Sans ExtraBold', sans-serif;
-    background: linear-gradient(to right, #0E1757, #3888C2);
+    background: linear-gradient(to right, #0D1554, #3888C2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }

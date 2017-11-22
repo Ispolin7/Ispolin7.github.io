@@ -1,4 +1,4 @@
-@media screen and (max-width: 1240px) {
+@media screen and (min-width: 426px) and (max-width: 1240px) {
     .menu-block{
         display: block;
     }
@@ -12,242 +12,93 @@
     .menu{
         width: 100%;
         display: block;
-        text-align: center;
-        padding: 1%;
+        margin-top: 2%;
     }
     .trash {
-        position: absolute;
-        padding: 0;
-        right: 7%;
-        top: 30%;
+       float: right;
+        padding-right: 10%;
     }
     .fa-shopping-cart{
         font-size: 3vw;
     }
-}
-
-/*@media screen and (max-width: 1640px) {
-    .trash{
-        padding-right: 10%;
+    .spisok{
+        float: left;
+        padding-left: 10%;
     }
-    .menu li{
-        padding-right: 30px;
+    .performance-block img{
+        width: 50px;
+    }
+}
+@media screen and (max-device-width: 425px) {
+    .menu-block{
+        position: relative;
+        background: #4396D7;
+    }
+    .logo{
+        margin: 0;
+        display: block;
+    }
+    .left-logo{
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+    .right-logo{
+        margin: 0;
+    }
+    .slider-text{top: 25%}
+    .slider-text p{
+        padding: 0;
+        text-align: center;
     }
     .game-changer{
         display: inline-block;
         width: 38%;
+        float: left;
+        padding-left: 10%;
     }
-    .video-media{display: inline-block;
-    width: 38%;
+    .video-media{
+        display: inline-block;
+        width: 38%;
+        float: right;
         text-align: right;
+        padding-right: 10%;
     }
     .button{
-        margin-left: 40%;
+        margin-left: 25%;
     }
     .video-info{
         float: none;
         width: 100%;
         padding: 0;
     }
-    .game-changer{
-        float: left;
-        padding-left: 10%;
-    }
-    .video-media{
-        float: right;
-        padding-right: 10%;
-    }
     .price{border: none}
     .video{
         float: none;
         margin: 0 auto;
+        width: 75%;
     }
-    .liners-text{
-        font-size: 40px;
-    }
-
-}
-
-@media screen and (min-width: 1201px) and (max-width: 1470px) {
-    .addres div:first-child {
-        display: block;
-        width: 100%;
-        text-align: left;
-    }
-
-    .addres div:nth-child(2) {
-        text-align: left;
-        padding: 0;
-    }
-
-    .right-top {
-        padding-left: 5%;
-    }
-
-    .addres h4, .addres p {
-        display: inline-block;
-    }
-
-    .addres p {
-        padding-left: 20px
-    }
-
-    .performance-safety {
-        font-size: 35px;
-    }
-
-    .game-changer h2 {
-        font-size: 40px;
-    }
-
-    .features-text {
-        font-size: 40px;
-    }
-    .menu-block{
-        display: block;
-    }
-    .logo{
-        padding: 0;
-        text-align: center;
-        width: 100%;
-    }
-    .menu{
-        width: 100%;
-        display: block;
-        text-align: center;
-    }
-    .trash {
-        position: absolute;
-        padding: 0;
-        right: 7%;
-        top: 30%;
-    }
-    .pros{
-        padding-top: 75px;
-        padding-bottom: 75px;
-    }
-    .pros-text{font-size: 45px}
-    .liners-text{
-        font-size: 30px;
-    }
-    .game-changer h2{
-        font-size: 40px;
-    }
-    .price p{
-        font-size: 25px;
+    .info-logo{
+        padding-top: 5%;
     }
     .buy{
-        padding-top: 40px;
-    }
-    .delivered{margin-top: 50px}
-}
-@media screen and (max-width: 1200px) {
-    .slider-text h2{
-        font-size: 100px;
-    }
-    .slider-text h3{
-        font-size: 35px;
-    }
-    .slider-text p{
-        font-size: 25px;
-    }
-    .tech-features{
+        padding-top: 20px;
         display: block;
-        padding-top: 30px;
-        padding-bottom: 30px;
     }
-    .features-text{
-        width: 100%;
-        font-size: 35px;
-        text-align: center;
-        padding: 0 0 15px 0;
-    }
-    .features-image{
-        width: 100%;
-        padding: 0;
-        text-align: center;
-    }
-    .features-image img{
+    .liners{
         width: 90%;
+        margin: 0 auto;
+        margin-bottom: 4%;
     }
-    .menu-block{
-        display: block;
-    }
-    .logo{
-        padding: 0;
-        text-align: center;
-        width: 100%;
-    }
-    .menu{
-        width: 100%;
-        display: block;
-        text-align: center;
-    }
-    .trash {
-        position: absolute;
-        padding: 0;
-        right: 7%;
-        top: 30%;
-    }
-
-    .performance-safety{
-        display: block;
-        padding-bottom: 0;
-    }
-    .performance-block:first-child{
-        width: 100%;
-        text-align: center;
-        padding: 0;
-        border-bottom: 1px solid white;
-    }
-    .performance-block:last-child{
-        width: 50%;
-        float: right;
-    }
-
-    .performance-block:nth-child(2){
-        width: 50%;
-        float: left;
-        border-right: 1px solid white;;
-    }
-    .game-changer h2{
-        font-size: 40px;
+    .liners-buttom{
+        font-size: 7vw;
     }
     .liners-text{
-        font-size: 30px;
+        font-size: 9vw;
     }
-    .about{
-        width: 50%;
-    }
-    .stay h2{
-        font-size: 15px;
-    }
-    .stay{
-        padding-right: 20%;
-    }
-    .pros{
-        padding-top: 40px;
-        padding-bottom: 40px;
-    }
-    .pros-logo{
-        padding-top: 20px;
-    }
-    .pros-circle{
-        padding-top: 20px;
-    }
-    .pros-text{font-size: 30px}
-    .price p{
-        font-size: 25px;
-    }
-    .nosweatco{
-        top:5%;
-    }
-    .delivered-text{
-        top: 17%;
-    }
-    .buy{
-        padding-top: 40px;
-    }
-    .delivered{margin-top: 50px}
-
+    .addres{padding-top: 0}
+    .stay h2{padding-bottom: 5%}
+    .fa-location-arrow{padding: 2%}
 }
+
+
