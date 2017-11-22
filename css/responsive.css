@@ -1,3 +1,25 @@
+*@media screen and (max-width: 1240px) {
+    .menu-block{
+        display: block;
+    }
+    .logo{
+        padding: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .menu{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .trash {
+        position: absolute;
+        padding: 0;
+        right: 7%;
+        top: 30%;
+    }
+}
+
 /*@media screen and (max-width: 1640px) {
     .trash{
         padding-right: 10%;
