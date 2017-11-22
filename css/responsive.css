@@ -1,4 +1,4 @@
-@media screen and (min-width: 426px) and (max-width: 1240px) {
+@media screen and (max-width: 1240px) {
     .menu-block{
         display: block;
     }
@@ -28,6 +28,7 @@
     .performance-block img{
         width: 50px;
     }
+    .fa-location-arrow{padding: 1%}
 }
 @media screen and (max-device-width: 425px) {
     .menu-block{
