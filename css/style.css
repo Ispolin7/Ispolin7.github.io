@@ -6,6 +6,26 @@ main{text-transform: uppercase;}
 .clerfix {
     clear: both;
 }
+
+@font-face {
+    font-family: 'BRUSHSTRIKE';
+    src: url(/../font/Brushstrike.ttf);
+}
+
+@font-face {
+    font-family: 'Bebas Neue Regular';
+    src: url(/../font/BebasNeue_Regular.otf);
+}
+@font-face {
+    font-family: 'Open Sans ExtraBold';
+    src: url(/../font/OpenSans-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: 'ChunkFive';
+    src: url(/../font/Chunkfive.otf);
+}
+
 /*HEADER*/
 .info-promo{
     width: 100%;
